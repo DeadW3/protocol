@@ -15,7 +15,7 @@ const envSchema = z.object({
 
 export type Env = z.infer<typeof envSchema>;
 
-export const config = envSchema.parse(process.env);
+export const config: Env = envSchema.parse(process.env);
 
 export const isDevelopment = config.NODE_ENV === 'development';
 export const isProduction = config.NODE_ENV === 'production';
