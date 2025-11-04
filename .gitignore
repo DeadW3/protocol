@@ -1,0 +1,84 @@
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+pino-*.log
+
+# Docker
+.docker-data/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Prisma
+prisma/migrations/
+!prisma/migrations/.gitkeep
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+pino-*.log
+
+# Docker
+.docker-data/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Prisma
+prisma/migrations/
+!prisma/migrations/.gitkeep
