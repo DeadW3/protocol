@@ -1,41 +1,24 @@
 {
   "name": "deadw3-protocol",
   "version": "0.1.0",
-  "private": true,
-  "description": "DeadW3 Protocol: Arweave archival + ERC-20 incentives + AI verification",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DeadW3/protocol.git"
-  },
-  "license": "MPL-2.0",
-  "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=8.0.0"
-  },
-  "packageManager": "pnpm@8.15.1",
+  "description": "DeadW3: Decentralized Preservation of Community Archives",
+  "type": "module",
   "scripts": {
-    "build": "pnpm -r build",
-    "dev": "pnpm -r --parallel dev",
-    "test": "pnpm -r test",
-    "lint": "pnpm -r lint",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "typecheck": "pnpm -r typecheck",
-    "clean": "pnpm -r clean && rm -rf node_modules",
-    "prepare": "husky install"
+    "generate-manifest": "tsx scripts/upload/generate_manifest.ts",
+    "bundle-to-arweave": "tsx scripts/upload/bundle_to_arweave.ts"
   },
+  "keywords": [
+    "arweave",
+    "archive",
+    "preservation",
+    "grateful-dead"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.10.6",
-    "@typescript-eslint/eslint-plugin": "^6.18.1",
-    "@typescript-eslint/parser": "^6.18.1",
-    "eslint": "^8.56.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "prettier": "^3.1.1",
-    "typescript": "^5.3.3"
-  }
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0"
+  },
+  "dependencies": {}
 }
