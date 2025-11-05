@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-11-05T01:26:54.517Z",
+  "totalShows": 2,
+  "entries": {
+    "gd1977-05-08.sbd.hamilton.93467.shnf": {
+      "archiveId": "gd1977-05-08.sbd.hamilton.93467.shnf",
+      "arweaveTxId": "example-tx-id-1234567890abcdef",
+      "arweaveUrl": "https://arweave.net/example-tx-id-1234567890abcdef",
+      "archiveUrl": "https://archive.org/details/gd1977-05-08.sbd.hamilton.93467.shnf",
+      "metadata": {
+        "date": "1977-05-08",
+        "venue": "Barton Hall, Cornell University",
+        "artist": "Grateful Dead",
+        "source": "soundboard"
+      }
+    },
+    "gd1972-08-27.aud.unknown.12345.flac": {
+      "archiveId": "gd1972-08-27.aud.unknown.12345.flac",
+      "arweaveTxId": "example-tx-id-abcdef1234567890",
+      "arweaveUrl": "https://arweave.net/example-tx-id-abcdef1234567890",
+      "archiveUrl": "https://archive.org/details/gd1972-08-27.aud.unknown.12345.flac",
+      "metadata": {
+        "date": "1972-08-27",
+        "venue": "Old Renaissance Faire Grounds",
+        "artist": "Grateful Dead",
+        "source": "audience"
+      }
+    }
+  }
+}
